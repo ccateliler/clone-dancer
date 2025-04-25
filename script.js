@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /*GALERIE AME*/
 
 const fullscreen = (id) => {
+  console.log("id retrieved for fullscreening is: " + id);
   if (imgEl && overlayEl) {
     const tag = "imgbtn-";
     const imgNum = id.replace(tag, "");
@@ -169,6 +170,14 @@ if (slideshowOverlayTrigger) {
         slideshowOverlayTrigger[index].style.filter =
           "opacity(100%) brightness(100%)";
       });
+    });
+  });
+}
+
+if (scenesOverlayCaptions) {
+  scenesOverlayCaptions.forEach((button) => {
+    button.addEventListener("click", () => {
+      fullscreen(button.id.replace("cap-", ""));
     });
   });
 }
