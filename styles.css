@@ -1408,11 +1408,11 @@
     padding: 7dvw;
   }
   #scenes-body .caption h2 {
-    font-size: 8dvw;
+    font-size: 4.5dvw;
     font-weight: 300;
   }
   #scenes-body .caption p {
-    font-size: 3dvw;
+    font-size: 2dvw;
     font-weight: 200;
   }
   #scenes-body .fullImg {
@@ -1549,7 +1549,6 @@
     width: 65dvw;
     display: absolute;
     left: 0dvw;
-    
   }
   #news-body .col:nth-of-type(2) hr {
     display: none;
@@ -1568,7 +1567,7 @@
     height: 4dvw;
   }
   #news-body footer {
-    position: absolute; 
+    position: absolute;
     top: 410dvh;
     left: 5dvw;
     width: 90dvw;
