@@ -1513,6 +1513,7 @@
     position: absolute;
     top: 8dvh;
     left: 5dvw;
+    flex-wrap: wrap;
   }
   #news-body .col:nth-of-type(2) .col-header {
     font-size: 9dvw;
@@ -1536,7 +1537,7 @@
   }
   #news-body .col:nth-of-type(2) .featured-posts .featured-title {
     margin-top: 0dvh;
-    margin-left: 3dvw;
+    padding-left: 3dvw;
     margin-bottom: 3dvh;
     color: #4a4a4a;
     font-size: 4.5dvw;
