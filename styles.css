@@ -1221,8 +1221,11 @@
     width: 10dvw;
   }
   .navbar {
-    width: 40dvw;
-    padding-right: 10dvw;
+    width: 50dvw;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    left: 50dvw;
     height: 25dvw;
     justify-content: space-evenly;
   }
@@ -1401,11 +1404,17 @@
     animation: prevSlideMobile 1s ease-in-out forwards;
   }
   #scenes-body .slides .caption {
-    margin-top: -23dvh;
+    margin-top: 0;
+    position: relative;
+    top: -20dvh;
     margin-left: 0;
     gap: 3dvh;
     width: 70dvw;
+    height: 15dvw;
     padding: 7dvw;
+    display: flex;
+    opacity: 0%;
+    animation: fadeIn 0.3s ease forwards;
   }
   #scenes-body .caption h2 {
     font-size: 4.5dvw;
