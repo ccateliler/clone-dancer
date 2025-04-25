@@ -1703,6 +1703,8 @@
     .recent-img {
     width: 30dvw;
     height: 30dvw;
+    object-fit: cover;
+    object-position: center;
   }
   .single-post-body
     .col:nth-of-type(2)
